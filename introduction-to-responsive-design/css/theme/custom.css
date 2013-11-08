@@ -23,51 +23,7 @@
   border-color: #13daec;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
-  border-right-color: #13daec; }
 
-.reveal .controls div.navigate-right,
-.reveal .controls div.navigate-right.enabled {
-  border-left-color: #13daec; }
-
-.reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #13daec; }
-
-.reveal .controls div.navigate-down,
-.reveal .controls div.navigate-down.enabled {
-  border-top-color: #13daec; }
-
-.reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #71e9f4; }
-
-.reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #71e9f4; }
-
-.reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #71e9f4; }
-
-.reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #71e9f4; }
-
-/*********************************************
- * PROGRESS BAR
- *********************************************/
-.reveal .progress {
-  background: rgba(0, 0, 0, 0.2); }
-
-.reveal .progress span {
-  background: #13daec;
-  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
-  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-  
   
 
   
@@ -90,7 +46,18 @@
 	src: url("../../lib/font/fontawesome-webfont.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
-}  
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../../lib/font/BebasNeue-webfont.eot');
+    src: url('../../lib/font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../lib/font/BebasNeue-webfont.woff') format('woff'),
+         url('../../lib/font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../../lib/font/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
   
 /* =FONT-AWESOME
 ------------------------------------------------------- */
@@ -123,14 +90,14 @@
   
 .reveal
 {
-	color: #eeeeee;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2.25em;
+	color: #333;
+	font-family: "Lato", sans-serif;
+	font-size: 3em;
 }
   
 body
 {
-	background: #2E588F;
+	background: #FCFCFC;
 }
  
 .reveal h1,
@@ -140,8 +107,9 @@ body
 .reveal h5,
 .reveal h6
 {
-	color: #eeeeee;
-	font-family: 'Montserrat Alternates', sans-serif;
+	color: #333;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: normal;
 	margin-bottom: 0.5em;
 	text-transform: uppercase;
 }
@@ -150,26 +118,23 @@ body
 {
 	font-size: 3em;
 	margin-bottom: 0.5em;
-	text-shadow: 0 4px 0 #244775;
 }
 
 .reveal h2
 {
-	color: #F0C135;
 	font-size: 2.5em;
 	text-shadow: none;
 }
 
 .reveal h3
 {
-	color: #F0C135;
 	font-size: 2em;
 	text-shadow: none;
 }
 
 .reveal a
 {
-	color: #F0C135;
+	color: #5A9BD3;
 	text-decoration: none;
 }
 
@@ -216,66 +181,6 @@ ul
 	width: 33%;
 }
 
-/* =WHALE-PARTS
-------------------------------------------------------- */
-
-.eye
-{
-	background: #111;
-	border-radius: 100%;
-	position: absolute;
-	padding-bottom: 8%;
-	top: 55%;
-	width: 8%;
-}
-
-.eye.right
-{
-	right: 5%;
-}
-
-.eye.left
-{
-	left: 5%;
-}
-
-.eyelid
-{
-	-webkit-animation-name: blink;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-duration: 10s;
-	background: #2E588F;
-	padding-bottom: 100%;
-	position: absolute;
-	top: -100%;
-	width: 100%;
-}
-
-.glint
-{
-	background: #FFF;
-	border-radius: 100%;
-	position: absolute;
-	padding-bottom: 25%;
-	top: 20%;
-	right: 13%;
-	width: 25%;
-}
-
-.mouth
-{
-	background-color: #FFFADB;
-	background-image: linear-gradient(90deg, transparent 70%, #F5F0D3 30%);
-	background-size: 1.5% 1.5%;
-	border-radius: 100%;
-	box-shadow: inset 0 10px 0 #E8E3C3;
-	top: 80%;
-	left: -15%;
-	position: absolute;
-	height: 50%;
-	width: 130%;
-}
-
 .reveal .presenter
 {
 	display: block;
@@ -313,15 +218,4 @@ ul
 	margin: 0 auto;
 	padding: 20px;
 	width: 80%;
-}
-
-/* =ANIMATIONs
-------------------------------------------------------- */
-
-@-webkit-keyframes blink
-{
-	from { top: -100%; }
-	5% { top: 0%; }
-	10% { top: -100%; }
-	to { top: -100%; }
 }
