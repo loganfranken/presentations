@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<title>Contact &raquo; Office of Lorem Ipsum</title>
+	<link rel="stylesheet" href="style/main.css" media="screen" />
+</head>
+<body>
+
+	<div class="ucsb-banner">
+	    <a href="http://www.ucsb.edu/" target="_blank">University of California, Santa Barbara</a>
+	</div>
+	
+    <div class="header-wrapper">
+        <div class="header-container">
+		    <header>
+			    <h1><a href="/">Office of Lorem Ipsum</a></h1>
+		    </header>
+        
+            <form class="search-form" method="GET" action="https://www.google.com/search">
+			    <label for="search-query">Search Query:</label>
+			    <input type="text" id="search-query" name="q" />
+			    <input type="hidden" name="sitesearch" value="ucsb.edu" />
+		    </form>
+        </div>
+    </div>
+	
+	<nav>
+		<h1>Main Navigation</h1>
+		<ul>
+			<li><a href="about.html">About</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="visitus.html">Visit Us</a></li>
+			<li class="selected"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		
+		<h1>Contact</h1>
+		
+		<span class="contact-quote">
+			We can't wait to hear from you!
+		</span>
+		
+		<form method="GET" action="contact.html" class="contact-form">
+			<ul>
+				<li class="contact-name-wrapper">
+					<label for="contact-name">Name</label>
+					<input type="text" id="contact-name" name="name" />
+				</li>
+				<li class="contact-email-wrapper">
+					<label for="contact-email">E-mail</label>
+					<input type="text" id="contact-email" name="email" />
+				</li>
+				<li>
+					<label for="contact-message">Message</label>
+					<textarea id="contact-message" name="message"></textarea>
+				</li>
+				<li class="contact-submit-wrapper">
+					<input type="submit" id="contact-submit" value="Send Message" />
+				</li>
+			</ul>
+		</form>
+		
+	</main>
+		
+	<footer>
+		<span>Copyright &copy; 2013 The Regents of the University of California, All Rights Reserved</span>
+	</footer>
+	
+</body>
+</html>
