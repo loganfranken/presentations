@@ -309,7 +309,7 @@ nav a:hover
 /* =CONTENT
 ------------------------------------------------------- */
 
-main
+.main
 {
 	background: url(../images/content_back.png) no-repeat;
 	background-position: 664px 0;
@@ -321,7 +321,7 @@ main
     z-index: -1;
 }
 
-main h1
+.main h1
 {
 	color: #2867B8;
 	font-size: 3em;
@@ -329,7 +329,7 @@ main h1
 	margin: 0.75em 0 0.4em;
 }
 
-main h2
+.main h2
 {
 	color: #6C9EDD;
 	font-size: 1.5em;
@@ -338,7 +338,7 @@ main h2
 
 @media (max-width: 600px)
 {
-    main h1
+    .main h1
     {
         font-size: 2.5em;
         text-align: center;
@@ -347,7 +347,7 @@ main h2
 
 @media (max-width: 400px)
 {
-    main h1
+    .main h1
     {
         font-size: 2em;
     }
