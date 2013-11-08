@@ -11,7 +11,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
@@ -43,19 +43,19 @@
 					<table class="info-table">
 						<tr>
 							<td><i class="icon icon-smile"></i></td>
-							<td><a href="http://www.loganfranken.com/">Logan Franken</a></td>
+							<td><a target="_blank" href="http://www.loganfranken.com/">Logan Franken</a></td>
 						</tr>
 						<tr>
 							<td><i class="icon icon-twitter"></i></td>
-							<td><a href="http://www.twitter.com/loganfranken">@loganfranken</a></td>
+							<td><a target="_blank" href="http://www.twitter.com/loganfranken">@loganfranken</a></td>
 						</tr>
 						<tr>
 							<td><i class="icon icon-eye-open"></i></td>
-							<td><a href=""></a></td>
+							<td><a target="_blank" href=""></a></td>
 						</tr>
 						<tr>
 							<td><i class="icon icon-download"></i></td>
-							<td><a href=""></a></td>
+							<td><a target="_blank" href="http://goo.gl/x6BUze">goo.gl/x6BUze</a></td>
 						</tr>
 					</table>
 				</section>
@@ -66,8 +66,8 @@
 				
 				<section>
 					<p>
-						<strong>Responsive Web Design (RWD)</strong> transforms to fit the
-						<strong>needs</strong> and <strong>capabilities</strong> of the User's device.
+						<strong class="emph1">Responsive Web Design (RWD)</strong> transforms to fit the
+						<strong class="emph2">needs</strong> and <strong class="emph2">capabilities</strong> of the User's device.
 					</p>
 				</section>
 				
@@ -77,8 +77,8 @@
 				</section>
 				
 				<section>
-					<h2 class="old">What Does That Mean?</h2>
-					<h2>Browser Size</h2>
+					<h2 class="fade">What Does That Mean?</h2>
+					<h2 class="emph2">Browser Size</h2>
 				</section>
 				
 				<section>
@@ -87,17 +87,17 @@
 						<li>Connection Speed</li>
 						<li>Retina Display</li>
 						<li>Battery Life</li>
-						<li><a href="http://webdesign.maratz.com/lab/responsivetypography/realtime/" target="_blank">Distance From Screen</a></li>
+						<li><a target="_blank" href="http://webdesign.maratz.com/lab/responsivetypography/realtime/">Distance From Screen</a></li>
 					</ul>
 				</section>
 				
 				<section>
-					<h2 class="old">But Also:</h2>
+					<h2 class="fade">But Also:</h2>
 					<ul>
 						<li>Connection Speed</li>
 						<li>Retina Display</li>
 						<li>Battery Life</li>
-						<li>Distance From Screen</li>
+						<li><a target="_blank" href="http://webdesign.maratz.com/lab/responsivetypography/realtime/">Distance From Screen</a></li>
 					</ul>
 				</section>
 				
@@ -110,12 +110,30 @@
 				</section>
 				
 				<section>
-					<h2>One Future-Proof Design</h2>
+					<h2>But Why?</h2>
 				</section>
 				
 				<section>
-					<h2>Components</h2>
-					<ul>
+					<h2>One</h2>
+					<h2>Future-Proof</h2>
+					<h2>Design</h2>
+				</section>
+				
+				<section>
+					<h2 class="emph1">One</h2>
+					<h2 class="fade">Future-Proof</h2>
+					<h2 class="fade">Design</h2>
+				</section>
+				
+				<section>
+					<h2 class="fade">One</h2>
+					<h2 class="emph2">Future-Proof</h2>
+					<h2 class="fade">Design</h2>
+				</section>
+				
+				<section>
+					<h2>What's Involved?</h2>
+					<ul class="hidden">
 						<li>Media Queries</li>
 						<li>Responsive Media</li>
 						<li>Flexible Grid</li>
@@ -123,46 +141,86 @@
 				</section>
 				
 				<section>
-					<h2>Media Query</h2>
-					<pre><code>@media (expression) {
+					<h2>What's Involved?</h2>
+					<ul>
+						<li class="emph2">Media Queries</li>
+						<li class="hidden">Responsive Media</li>
+						<li class="hidden">Flexible Grid</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>What's Involved?</h2>
+					<ul>
+						<li class="fade">Media Queries</li>
+						<li class="emph2">Responsive Media</li>
+						<li class="hidden">Flexible Grid</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>What's Involved?</h2>
+					<ul>
+						<li class="fade">Media Queries</li>
+						<li class="fade">Responsive Media</li>
+						<li class="emph2">Flexible Grid</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>The Media Query</h2>
+				</section>
+				
+				<section>
+					<pre><code>@media (expression)
+{
    /* CSS */
 }</code></pre>
 				</section>
 				
 				<section>
-					<pre><code>@media (max-width: 600px) {
-   .info {
+					<pre><code>@media (max-width: 600px)
+{
+   /* If viewport is 600px or less */
+   .info
+   {
       width: 50%;
    }   
 }</code></pre>
-					<p>If the viewport is currently 600px or less</p>
 				</section>
 				
 				<section>
-					<pre><code>@media (min-width: 300px) {
-   .callout {
+					<pre><code>@media (min-width: 300px)
+{
+   /* If viewport is 300px or more */
+   .callout
+   {
       float: left;
    }   
 }</code></pre>
-					<p>If the viewport is currently 300px or greater</p>
 				</section>
 				
 				<section>
-					<pre><code>@media (max-device-width: 400px) {
-   .input {
-      display: block;
-	  width: 100%;
+					<pre><code>@media (max-device-width: 400px)
+{
+   /* If width of actual screen
+      is 400px or less          */
+   .input
+   {
+      width: 100%;
    }   
 }</code></pre>
-					<p>If the actual screen is currently 400px or less</p>
+				</section>
+				
+				<section>
+					<h2>Just the Surface</h2>
+					<ul>
+						<li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries">MDN: Media Queries</a></li>
+					</ul>
 				</section>
 				
 				<section>
 					<h2>Let's Start Coding</h2>
-				</section>
-				
-				<section>
-					<h2>Viewport Meta Tag</h2>
 				</section>
 				
 			</div>
