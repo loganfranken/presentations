@@ -57,53 +57,12 @@ body
 	font-family: Arial, sans-serif;
 }
 
-main h1
-{
-	color: #2867B8;
-	font-size: 3em;
-	font-weight: normal;
-	margin: 0.75em 0 0.4em;
-}
-
-main h2
-{
-	color: #6C9EDD;
-	font-size: 1.5em;
-	font-weight: normal;
-}
-
-.photo-box-right, .photo-box-left, .photo-list li, .map-wrapper img
-{
-    border: 1px solid #CCC;
-	-moz-box-shadow: 0 1px 8px #CCC;
-	-webkit-box-shadow: 0 1px 8px #CCC;
-    -ms-box-shadow: 0 1px 8px #CCC;
-    box-shadow: 0 1px 8px #CCC;
-}
-
-.photo-box-right, .photo-box-left
-{
-	padding: 10px;
-}
-
-.photo-box-right
-{
-	float: right;
-	margin: 0 0 20px 20px;
-}
-
-.photo-box-left
-{
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
 a img
 {
 	border: 0;
 }
 
-/* =HEADER
+/* =UCSB-BANNER
 ------------------------------------------------------- */
 
 .ucsb-banner
@@ -130,6 +89,9 @@ a img
     text-transform: uppercase;
     width: 960px;
 }
+
+/* =HEADER
+------------------------------------------------------- */
 
 .header-wrapper
 {
@@ -243,6 +205,21 @@ main
     width: 934px;
 }
 
+main h1
+{
+	color: #2867B8;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0.75em 0 0.4em;
+}
+
+main h2
+{
+	color: #6C9EDD;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
 /* =FOOTER
 ------------------------------------------------------- */
 
@@ -272,6 +249,35 @@ footer span
 .intro
 {
 	font-size: 1.5em;
+}
+
+/* =ABOUT
+------------------------------------------------------- */
+
+.photo-box-right, .photo-box-left, .photo-list li, .map-wrapper img
+{
+    border: 1px solid #CCC;
+	-moz-box-shadow: 0 1px 8px #CCC;
+	-webkit-box-shadow: 0 1px 8px #CCC;
+    -ms-box-shadow: 0 1px 8px #CCC;
+    box-shadow: 0 1px 8px #CCC;
+}
+
+.photo-box-right, .photo-box-left
+{
+	padding: 10px;
+}
+
+.photo-box-right
+{
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.photo-box-left
+{
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
 /* =PHOTOS

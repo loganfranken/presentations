@@ -70,49 +70,12 @@ body
 	font-family: Arial, sans-serif;
 }
 
-.photo-box-right, .photo-box-left, .photo-list li, .map-wrapper img
-{
-    border: 1px solid #CCC;
-	-moz-box-shadow: 0 1px 8px #CCC;
-	-webkit-box-shadow: 0 1px 8px #CCC;
-    -ms-box-shadow: 0 1px 8px #CCC;
-    box-shadow: 0 1px 8px #CCC;
-}
-
-.photo-box-right, .photo-box-left
-{
-	padding: 10px;
-}
-
-.photo-box-right
-{
-	float: right;
-	margin: 0 0 20px 20px;
-}
-
-.photo-box-left
-{
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-@media (max-width: 400px)
-{
-    .photo-box-right, .photo-box-left
-    {
-        float: none;
-        margin: 0;
-        padding: 3%;
-        width: 94%;
-    }
-}
-
 a img
 {
 	border: 0;
 }
 
-/* =HEADER
+/* =UCSB-BANNER
 ------------------------------------------------------- */
 
 .ucsb-banner
@@ -139,6 +102,36 @@ a img
     text-shadow: 0 1px 0 #FFF0B7;
     text-transform: uppercase;
 }
+
+@media (max-width: 600px)
+{
+    .ucsb-banner a
+    {
+        letter-spacing: 0.3em;    
+    }
+}
+
+@media (max-width: 400px)
+{
+    .ucsb-banner a
+    {
+        text-indent: -9999px;
+    }
+
+    .ucsb-banner a:after
+    {
+        content: "UCSB";
+        display: block;
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        margin-top: -1em;
+        font-size: 1.5em;
+        text-indent: 0; 
+    }
+}
+
+/* =HEADER
+------------------------------------------------------- */
 
 .header-wrapper
 {
@@ -184,33 +177,6 @@ header h1 a
 	height: 24px;
 	padding: 2px 5px;
 	width: 200px;
-}
-
-@media (max-width: 600px)
-{
-    .ucsb-banner a
-    {
-        letter-spacing: 0.3em;    
-    }
-}
-
-@media (max-width: 400px)
-{
-    .ucsb-banner a
-    {
-        text-indent: -9999px;
-    }
-
-    .ucsb-banner a:after
-    {
-        content: "UCSB";
-        display: block;
-        font-weight: normal;
-        letter-spacing: 0.1em;
-        margin-top: -1em;
-        font-size: 1.5em;
-        text-indent: 0; 
-    }
 }
 
 @media (max-width: 600px)
@@ -273,6 +239,8 @@ nav
     -webkit-box-shadow: 0 3px 5px #EEE;
     -ms-box-shadow: 0 3px 5px #EEE;
     box-shadow: 0 3px 5px #EEE;
+	position: relative;
+	z-index: 1;
 }
 
 nav ul
@@ -424,6 +392,46 @@ footer span
     }
 }
 
+/* =ABOUT
+------------------------------------------------------- */
+
+.photo-box-right, .photo-box-left, .photo-list li, .map-wrapper img
+{
+    border: 1px solid #CCC;
+	-moz-box-shadow: 0 1px 8px #CCC;
+	-webkit-box-shadow: 0 1px 8px #CCC;
+    -ms-box-shadow: 0 1px 8px #CCC;
+    box-shadow: 0 1px 8px #CCC;
+}
+
+.photo-box-right, .photo-box-left
+{
+	padding: 10px;
+}
+
+.photo-box-right
+{
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.photo-box-left
+{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+@media (max-width: 400px)
+{
+    .photo-box-right, .photo-box-left
+    {
+        float: none;
+        margin: 0;
+        padding: 3%;
+        width: 94%;
+    }
+}
+
 /* =PHOTOS
 ------------------------------------------------------- */
 
@@ -519,7 +527,7 @@ ul.photo-list
 	margin: 0 0 0.5em 0;
 }
 
-.contact-form input, #contact-form textarea
+.contact-form input, .contact-form textarea
 {
 	border: 1px solid #6C9EDD;
 	border-bottom-width: 2px;
