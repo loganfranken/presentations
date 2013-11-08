@@ -230,7 +230,7 @@ body
 	visibility: hidden;
 }
 
-.reveal .old
+.reveal .old, .reveal h2 .old
 {
 	color: #DDD;
 }
