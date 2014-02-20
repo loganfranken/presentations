@@ -2,16 +2,16 @@
 
 A talk I gave on web accessibility at the University of California, Santa Barbara.
 
-# Tips
+## Tips
 
-## General
+### General
 
 * Use semantically-meaningful markup
 * Keep HTML, CSS, and JavaScript separate ("separation of concerns")
 * Use "progressive enhancement"
 * Use valid, standards-compliant markup and styling
 
-### Resources
+#### Resources
 
 * [WCAG 2.0 - G115: Using semantic elements to mark up structure](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G115)
 * [WCAG 2.0 - G134: Validating Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G134)
