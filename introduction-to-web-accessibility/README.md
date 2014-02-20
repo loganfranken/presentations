@@ -42,9 +42,9 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H57: Using language attributes on the html element](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H57)
 * [WCAG 2.0 - G88: Providing descriptive titles for Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G88)
 
-## Headings
+### Headings
 
-* Use descriptive headings
+* Use clear, descriptive headings
 * Use heading elements (`h1` - `h6`) only for actual headings
 * Nest heading elements appropriately (e.g. `h3` is a subheading beneath `h2`)
 * *Do not* use heading elements just to style text
@@ -52,14 +52,14 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * *Do not* use multiple `h1` headings within a page (pre-HTML5) or within a sectioning element (HTML5)
 * Understand how use of headings has changed in HTML5
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H42
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H69
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G130
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G141
-* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-headings-appropriately.html
+* [WCAG 2.0 - G130: Providing descriptive headings](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G130)
+* [WCAG 2.0 - G141: Organizing a page using headings](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G141)
+* [WCAG 2.0 - H42: Using h1-h6 to identify headings](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H42)
+* [WCAG 2.0 - H69: Providing heading elements at the beginning of each section of content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H69)
+* [Mozilla Developer Network - Sections and Outlines of an HTML5 Document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5)
+* [UCOP EA - Use headings appropriately](http://www.ucop.edu/electronic-accessibility/web-developers/use-headings-appropriately.html)
 
 ## Images
 
