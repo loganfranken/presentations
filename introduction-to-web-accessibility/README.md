@@ -77,7 +77,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [UCOP EA - Use alt attributes appropriately on all images]http://www.ucop.edu/electronic-accessibility/web-developers/use-alt-attributes-appropriately-on-all-images.html
 * [UCOP EA - Use plain text for text](http://www.ucop.edu/electronic-accessibility/web-developers/use-plain-text-for-text.html)
 
-## Input Labels
+### Input Labels
 
 * Use `label` elements with `input` elements in forms
 * Use descriptive text for `label`s
@@ -85,12 +85,12 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Use CSS techniques to include the `label` even when it is not part of a page's visual interface
 * Use `fieldset` and `legend` for a group of related `input` elements
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H44
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H65
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G162
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G167
+* [WCAG 2.0 - H44: Using label elements to associate text labels with form controls](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H44)
+* [WCAG 2.0 - H65: Using the title attribute to identify form controls when the label element cannot be used](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H65)
+* [WCAG 2.0 - G162: Positioning labels to maximize predictability of relationships](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G162)
+* [WCAG 2.0 - G167: Using an adjacent button to label the purpose of a field](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G167)
 
 ## Links
 
