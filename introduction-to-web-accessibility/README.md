@@ -7,18 +7,18 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ## General
 
 * Use semantically-meaningful markup
-* Keep HTML, CSS, and JavaScript separate ("Separation of Concerns")
+* Keep HTML, CSS, and JavaScript separate ("separation of concerns")
 * Use "progressive enhancement"
 * Use valid, standards-compliant markup and styling
 
 ### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G115
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G134
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G140
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G192
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H49
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-valid-markup-and-styles.html
+* [WCAG 2.0 - G115: Using semantic elements to mark up structure](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G115)
+* [WCAG 2.0 - G134: Validating Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G134)
+* [WCAG 2.0 - G140: Separating information and structure from presentation to enable different presentations](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G140)
+* [WCAG 2.0 - G192: Fully conforming to specifications](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G192)
+* [WCAG 2.0 - H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H49)
+* [UCOP EA - Use valid markup and styles](http://www.ucop.edu/electronic-accessibility/web-developers/use-valid-markup-and-styles.html)
 
 ## Structuring Content
 
