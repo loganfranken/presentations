@@ -20,16 +20,16 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H49)
 * [UCOP EA - Use valid markup and styles](http://www.ucop.edu/electronic-accessibility/web-developers/use-valid-markup-and-styles.html)
 
-## Structuring Content
+### Structuring Content
 
 * Order content meaningfully
 * Organize content consistently across pages
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G57
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G61
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G197
+* [WCAG 2.0 - G57: Ordering the content in a meaningful sequence](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G57)
+* [WCAG 2.0 - G61: Presenting repeated components in the same relative order each time they appear](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G61)
+* [WCAG 2.0 - G197: Using labels, names, and text alternatives consistently for content that has the same functionality](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G197)
 
 ## HTML Document
 

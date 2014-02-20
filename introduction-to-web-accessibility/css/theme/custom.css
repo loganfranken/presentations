@@ -153,7 +153,7 @@ body
 
 .reveal h3
 {
-	font-size: 2em;
+	font-size: 1.75em;
 	text-shadow: none;
 }
 
@@ -244,4 +244,24 @@ body
 	margin: 0 auto;
 	padding: 20px;
 	width: 80%;
+}
+
+.reveal .bad pre code
+{
+	border-left: 5px solid #C00;
+}
+
+.reveal .bad h2
+{
+	color: #C00;
+}
+
+.reveal .good pre code
+{
+	border-left: 5px solid #7ACC00;
+}
+
+.reveal .good h2
+{
+	color: #7ACC00;
 }
