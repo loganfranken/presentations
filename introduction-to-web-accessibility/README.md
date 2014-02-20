@@ -61,7 +61,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [Mozilla Developer Network - Sections and Outlines of an HTML5 Document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5)
 * [UCOP EA - Use headings appropriately](http://www.ucop.edu/electronic-accessibility/web-developers/use-headings-appropriately.html)
 
-## Images
+### Images
 
 * Use the `alt` attribute ("alt text") on `img` elements
 * Provide a short description for the "alt text"
@@ -69,13 +69,13 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Use a "null" value for the `alt` attribute on purely decorative images (e.g. `alt=""`)
 * Use CSS techniques (background images, image replacement) to insert purely decorative images
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H37
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H67
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-alt-attributes-appropriately-on-all-images.html
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-plain-text-for-text.html
+* [WCAG 2.0 - H37: Using alt attributes on img elements](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H37)
+* [WCAG 2.0 - H67: Using null alt text and no title attribute on img elements for images that AT should ignore](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H67)
+* [WCAG 2.0 - http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9)
+* [UCOP EA - Use alt attributes appropriately on all images]http://www.ucop.edu/electronic-accessibility/web-developers/use-alt-attributes-appropriately-on-all-images.html
+* [UCOP EA - Use plain text for text](http://www.ucop.edu/electronic-accessibility/web-developers/use-plain-text-for-text.html)
 
 ## Input Labels
 
