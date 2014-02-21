@@ -168,39 +168,3 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G161: Providing a search function to help users find content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G161)
 * [WCAG 2.0 - G185: Linking to all of the pages on the site from the home page](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G185)
 * [UCOP EA - Use skip navigation links](http://www.ucop.edu/electronic-accessibility/web-developers/use-skip-navigation-links.html)
-
-### Fonts
-
-* Keep line width (measure) to 80 characters or less
-* Keep line spacing (leading) to at least a space-and-a-half within paragraphs
-* Keep paragraph spacing to at least 1.5 times larger than the standard leading
-* Use relative font size units (e.g. `em`)
-* *Do not* justify text
-
-#### Resources
-
-* [WCAG 2.0 - Visual Presentation](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-visual-presentation)
-* [WCAG 2.0 - Resize Text](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-scale)
-
-### Interaction
-
-* Allow users enough time to interact with content
-* Clearly highlight areas with focus
-* Clearly define how a user submits a form
-* *Do not* rapidly blink elements
-* *Do not* change context when an element receives focus
-
-#### Resources
-
-* [WCAG 2.0 - G76: Providing a mechanism to request an update of the content instead of updating automatically](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G76)
-* [WCAG 2.0 - G107: Using "activate" rather than "focus" as a trigger for changes of context](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G107)
-* [WCAG 2.0 - G149: Using user interface components that are highlighted by the user agent when they receive focus](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G149)
-* [WCAG 2.0 - G165: Using the default focus indicator for the platform so that high visibility default focus indicators will carry over](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G165)
-* [WCAG 2.0 - G195: Using an author-supplied, highly visible focus indicator](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G195)
-* [WCAG 2.0 - H32: Providing submit buttons](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H32)
-* [WCAG 2.0 - H84: Using a button with a select element to perform an action](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H84)
-* [WCAG 2.0 - C15: Using CSS to change the presentation of a user interface component when it receives focus](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C15)
-* [WCAG 2.0 - SCR19: Using an onchange event on a select element without causing a change of context](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR19)
-* [WCAG 2.0 - SCR31: Using script to change the background color or border of the element with focus](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR31)
-* [WCAG 2.0 - SCR33: Using script to scroll content, and providing a mechanism to pause it](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR33)
-* [WCAG 2.0 - Guideline 2.3 Seizure](http://www.w3.org/TR/WCAG20/#seizure-does-not-violate)
