@@ -268,5 +268,6 @@ body
 .reveal iframe
 {
 	margin-top: 0.5em;
+	min-height: 275px;
 	width: 80%;
 }

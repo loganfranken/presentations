@@ -69,3 +69,14 @@ body
 	overflow: hidden;
 	position: absolute;
 }
+
+.color-example
+{
+	font-size: 1.6em;
+	text-align: left;	
+}
+
+.color-example .new
+{
+	color: orange;
+}
