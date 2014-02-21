@@ -265,3 +265,9 @@ body
 {
 	color: #7ACC00;
 }
+
+.reveal iframe
+{
+	margin-top: 0.5em;
+	width: 80%;
+}
