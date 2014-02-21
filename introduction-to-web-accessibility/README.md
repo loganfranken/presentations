@@ -164,21 +164,21 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H90: Indicating required form controls using label or legend](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H90)
 * [WCAG 2.0 - SCR32: Providing client-side validation and adding error text via the DOM](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR32)
 
-## Keyboard Support
+### Keyboard Support
 
 * Ensure that your website can be navigated using just a keyboard
 * When specifying mouse-specific events with JavaScript (e.g. `onclick`), provide keyboard alternatives (e.g. `onkeypress`)
 * *Do not* create a "keyboard trap" or "tab loop" that can only be exited with a mouse
 * Only adjust `taborder` if necessary
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G21
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G202
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR2
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR20
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR35
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H4
+* [WCAG 2.0 - G21: Ensuring that users are not trapped in content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G21)
+* [WCAG 2.0 - G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G202)
+* [WCAG 2.0 - H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H4)
+* [WCAG 2.0 - SCR2: Using redundant keyboard and mouse event handlers](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR2)
+* [WCAG 2.0 - SCR20: Using both keyboard and other device-specific functions](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR20)
+* [WCAG 2.0 - SCR35: Making actions keyboard accessible by using the onclick event of anchors and buttons](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR35)
 
 ## Navigation
 
