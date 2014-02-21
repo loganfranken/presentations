@@ -447,7 +447,27 @@ alt=""
 				<!-- Tip #27: Keyboard Support -->
 				<section>
 					<h2 class="emph1">Tip #27</h2>
-					<h3>Avoid Adjusting "taborder"</h3>
+					<h3>Avoid Adjusting "tabindex"</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;a href="/mainmenu" tabindex="2"&gt;
+   Return to Main Menu
+&lt;/a&gt;
+&lt;button tabindex="1"&gt;
+   Place Order
+&lt;/button&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;button&gt;
+   Place Order
+&lt;/button&gt;
+&lt;a href="/mainmenu"&gt;
+   Return to Main Menu
+&lt;/a&gt;</code></pre>
 				</section>
 				
 				<!-- Tip #28: Navigation -->

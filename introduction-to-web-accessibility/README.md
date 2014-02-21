@@ -140,7 +140,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Keyboard Support
 
 * Ensure that your website can be navigated using just a keyboard
-* Only adjust `taborder` if necessary
+* Only adjust `tabindex` if necessary
 
 #### Resources
 
@@ -150,6 +150,8 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - SCR2: Using redundant keyboard and mouse event handlers](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR2)
 * [WCAG 2.0 - SCR20: Using both keyboard and other device-specific functions](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR20)
 * [WCAG 2.0 - SCR35: Making actions keyboard accessible by using the onclick event of anchors and buttons](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR35)
+* [WebAIM - Keyboard Accessibility](http://webaim.org/techniques/keyboard/)
+* [WebAIM - Tabindex](http://webaim.org/techniques/keyboard/tabindex)
 
 ### Navigation
 
