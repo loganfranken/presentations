@@ -180,7 +180,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - SCR20: Using both keyboard and other device-specific functions](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR20)
 * [WCAG 2.0 - SCR35: Making actions keyboard accessible by using the onclick event of anchors and buttons](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR35)
 
-## Navigation
+### Navigation
 
 * Provide links to "skip" to the main area of content
 * Provide links to related web pages
@@ -190,21 +190,21 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Clearly indicate the user's current location within the website and how it relates to the rest of the website
 * Clearly identify how the current web page relates to other web pages within the website
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G63
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G64
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G65
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G123
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G124
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G125
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G126
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G127
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G128
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G161
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G185
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-skip-navigation-links.html
+* [WCAG 2.0 - G1: Adding a link at the top of each page that goes directly to the main content area](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1)
+* [WCAG 2.0 - G63: Providing a site map](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G63)
+* [WCAG 2.0 - G64: Providing a Table of Contents](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G64)
+* [WCAG 2.0 - G65: Providing a breadcrumb trail](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G65)
+* [WCAG 2.0 - G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G123)
+* [WCAG 2.0 - G124: Adding links at the top of the page to each area of the content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G124)
+* [WCAG 2.0 - G125: Providing links to navigate to related Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G125)
+* [WCAG 2.0 - G126: Providing a list of links to all other Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G126)
+* [WCAG 2.0 - G127: Identifying a Web page's relationship to a larger collection of Web pages](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G127)
+* [WCAG 2.0 - G128: Indicating current location within navigation bars](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G128)
+* [WCAG 2.0 - G161: Providing a search function to help users find content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G161)
+* [WCAG 2.0 - G185: Linking to all of the pages on the site from the home page](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G185)
+* [UCOP EA - Use skip navigation links](http://www.ucop.edu/electronic-accessibility/web-developers/use-skip-navigation-links.html)
 
 ## Fonts
 
