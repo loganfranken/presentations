@@ -106,6 +106,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G183: Using a contrast ratio of 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G183)
 * [WCAG 2.0 - Contrast (Minimum)](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast)
 * [UCOP EA - Maintain contrast between text and background colors](http://www.ucop.edu/electronic-accessibility/web-developers/maintain-contrast-between-text-and-background-colors.html)
+* [WebAIM - Color Contrast Checker](http://webaim.org/resources/contrastchecker/)
 
 ### Tables
 
