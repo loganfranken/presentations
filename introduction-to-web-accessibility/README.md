@@ -138,7 +138,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H63: Using the scope attribute to associate header cells and data cells in data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H63)
 * [WCAG 2.0 - H73: Using the summary attribute of the table element to give an overview of data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H73)
 
-## Form Validation
+### Form Validation
 
 * Clearly denote required fields
 * Clearly define the desired format for input, providing examples
@@ -150,19 +150,19 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Allow the user to review input values before submitting
 * Provide feedback when a form is successfully submitted
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G83
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G84
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G85
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G89
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G98
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G139
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G177
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G184
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G199
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H90
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR32
+* [WCAG 2.0 - G83: Providing text descriptions to identify required fields that were not completed](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G83)
+* [WCAG 2.0 - G84: Providing a text description when the user provides information that is not in the list of allowed values](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G84)
+* [WCAG 2.0 - G85: Providing a text description when user input falls outside the required format or values](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G85)
+* [WCAG 2.0 - G89: Providing expected data format and example](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G89)
+* [WCAG 2.0 - G98: Providing the ability for the user to review and correct answers before submitting](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G98)
+* [WCAG 2.0 - G139: Creating a mechanism that allows users to jump to errors](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G139)
+* [WCAG 2.0 - G177: Providing suggested correction text](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G177)
+* [WCAG 2.0 - G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G184)
+* [WCAG 2.0 - G199: Providing success feedback when data is submitted successfully](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G199)
+* [WCAG 2.0 - H90: Indicating required form controls using label or legend](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H90)
+* [WCAG 2.0 - SCR32: Providing client-side validation and adding error text via the DOM](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR32)
 
 ## Keyboard Support
 
