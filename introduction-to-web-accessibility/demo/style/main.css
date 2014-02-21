@@ -26,3 +26,14 @@ body
 	text-decoration: none;
 	text-shadow: 0 2px 0 #67963B;
 }
+
+.welcome-header
+{
+	background: url('../images/wave.png') no-repeat top right;
+	color: #555;
+	font: italic normal 3.5em Georgia, serif;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: left;
+	width: 70%;
+}

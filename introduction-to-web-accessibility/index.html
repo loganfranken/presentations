@@ -310,6 +310,39 @@ alt=""
 					<h3>Use CSS for Decoration</h3>
 				</section>
 				
+				<section>
+					<iframe class="showcase" src="demo/tip13.html"></iframe>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;h1&gt;
+   Welcome!
+   &lt;img src="images/wave.png"&gt;
+&lt;/h1&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1 class="welcome-header"&gt;
+   Welcome!
+&lt;/h1&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>.welcome-header
+{
+   background: url('../images/wave.png') no-repeat top right;
+   color: #555;
+   font: italic normal 3.5em Georgia, serif;
+   margin: 0 auto;
+   padding-top: 50px;
+   text-align: left;
+   width: 70%;
+}</code></pre>
+				</section>
+				
 				<!-- Tip #14: Input Labels -->
 				<section>
 					<h2 class="emph1">Tip #14</h2>
