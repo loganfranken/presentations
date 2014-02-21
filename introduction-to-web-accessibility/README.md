@@ -206,7 +206,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G185: Linking to all of the pages on the site from the home page](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G185)
 * [UCOP EA - Use skip navigation links](http://www.ucop.edu/electronic-accessibility/web-developers/use-skip-navigation-links.html)
 
-## Fonts
+### Fonts
 
 * Keep line width (measure) to 80 characters or less
 * Keep line spacing (leading) to at least a space-and-a-half within paragraphs
@@ -214,10 +214,10 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Use relative font size units (e.g. `em`)
 * *Do not* justify text
 
-### Resources
+#### Resources
 
-* http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-visual-presentation
-* http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-scale
+* [WCAG 2.0 - Visual Presentation](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-visual-presentation)
+* [WCAG 2.0 - Resize Text](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-scale)
 
 ## Interaction
 
