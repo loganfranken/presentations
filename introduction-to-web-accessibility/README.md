@@ -73,6 +73,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H65: Using the title attribute to identify form controls when the label element cannot be used](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H65)
 * [WCAG 2.0 - G162: Positioning labels to maximize predictability of relationships](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G162)
 * [WCAG 2.0 - G167: Using an adjacent button to label the purpose of a field](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G167)
+* [WebAIM: Invisible Content Just for Screen Reader Users](http://webaim.org/techniques/css/invisiblecontent/)
 
 ### Links
 
@@ -174,3 +175,4 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G161: Providing a search function to help users find content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G161)
 * [WCAG 2.0 - G185: Linking to all of the pages on the site from the home page](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G185)
 * [UCOP EA - Use skip navigation links](http://www.ucop.edu/electronic-accessibility/web-developers/use-skip-navigation-links.html)
+* [WebAIM: Invisible Content Just for Screen Reader Users](http://webaim.org/techniques/css/invisiblecontent/)

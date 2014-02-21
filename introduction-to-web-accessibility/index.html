@@ -383,6 +383,37 @@ alt=""
 					<h2 class="emph1">Tip #15</h2>
 					<h3>Use CSS for "Invisible" Labels</h3>
 				</section>
+
+				<section>
+					<iframe class="showcase" src="demo/tip15.html"></iframe>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;form class="search-form"&gt;
+   &lt;input type="text" name="query" id="search-query" /&gt;
+   &lt;input type="submit" value="Search" /&gt;
+&lt;/form&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;form class="search-form"&gt;
+   &lt;label for="search-query"&gt;Search Query:&lt;/label&gt;
+   &lt;input type="text" name="query" id="search-query" /&gt;
+   &lt;input type="submit" value="Search" /&gt;
+&lt;/form&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>.search-form label
+{
+   left: -9999px;
+   overflow: hidden;
+   position: absolute;
+}</code></pre>
+				</section>
 				
 				<!-- Tip #16: Links -->
 				<section>
