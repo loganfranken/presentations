@@ -1,0 +1,28 @@
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.showcase
+{
+	clear: both;
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.download-btn
+{
+	background: #8EC957;
+	background: linear-gradient(to bottom,  #8EC957 0%,#71A341 100%);
+	border-bottom: 3px solid #4A6E29;
+	border-radius: 8px;
+	box-shadow: 0 3px 10px #CCE8B3;
+	color: #FFF;
+	font-size: 1.5em;
+	padding: 15px;
+	text-decoration: none;
+	text-shadow: 0 2px 0 #67963B;
+}
