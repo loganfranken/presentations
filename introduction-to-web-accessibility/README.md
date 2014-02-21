@@ -77,7 +77,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Links
 
 * Use descriptive text for links
-* Avoid opening new windows
+* Avoid opening new windows (warn the user if you must)
 * *Do not* use non-descriptive phrases, such as "click here"
 * *Do not* use the URL of the link as the link's text
 
@@ -92,6 +92,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [UCOP EA - Use descriptive text for links](http://www.ucop.edu/electronic-accessibility/web-developers/use-descriptive-text-for-links.html)
 * [UCOP EA - Use unique names for links](http://www.ucop.edu/electronic-accessibility/web-developers/use-unique-names-for-links.html)
 * [UCOP EA - Inform users when a link opens in a new window](http://www.ucop.edu/electronic-accessibility/web-developers/inform-users-when-a-link-opens-in-a%20new-%20window.html)
+* [CSS Tricks - When to use target="_blank"](http://css-tricks.com/use-target_blank/)
 
 ### Color
 
