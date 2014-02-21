@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introduction to Web Accessibility</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/custom.css" id="theme">
+
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	
+		<div class="reveal">
+
+			<div class="slides">
+			
+				<section>
+					<h1>Introduction to Web Accessibility</h1>
+					
+					<a class="presenter" target="_blank" href="http://www.loganfranken.com/">Logan Franken</a>
+				</section>
+				
+				<section>
+					<table class="info-table">
+						<tr>
+							<td><i class="icon icon-smile"></i></td>
+							<td><a target="_blank" href="http://www.loganfranken.com/">Logan Franken</a></td>
+						</tr>
+						<tr>
+							<td><i class="icon icon-twitter"></i></td>
+							<td><a target="_blank" href="http://www.twitter.com/loganfranken">@loganfranken</a></td>
+						</tr>
+						<tr>
+							<td><i class="icon icon-eye-open"></i></td>
+							<td><a target="_blank" href=""></a></td>
+						</tr>
+						<tr>
+							<td><i class="icon icon-download"></i></td>
+							<td><a target="_blank" href=""></a></td>
+						</tr>
+					</table>
+				</section>
+				
+				<section>
+					<h2>How to Make a Website <span class="emph1">Accessible</span>?</h2>
+				</section>
+					
+				<section>
+					<h2>For the most part</h2>
+				</section>
+					
+				<section>
+					<h2>A <span class="emph2">Good Website</span> is an <span class="emph1">Accessible Website</span></h2>
+				</section>
+				
+				<!-- Tip #1: Structuring Content -->
+				<section>
+					<h2 class="emph1">Tip #1</h2>
+					<h3>Order Content Meaningfully</h3>
+				</section>
+					
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;nav&gt;&lt;!-- Main Navigation --&gt;&lt;/nav&gt;
+
+&lt;aside&gt;&lt;!-- Sidebar --&gt;&lt;/aside&gt;
+
+&lt;h1&gt;Student Resources&lt;/h1&gt;
+
+&lt;main&gt;&lt;!-- Main Content --&gt;&lt;/main&gt;</code></pre>
+				</section>
+					
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1&gt;Student Resources&lt;/h1&gt;
+
+&lt;nav&gt;&lt;!-- Main Navigation --&gt;&lt;/nav&gt;
+
+&lt;main&gt;&lt;!-- Main Content --&gt;&lt;/main&gt;
+
+&lt;aside&gt;&lt;!-- Sidebar --&gt;&lt;/aside&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #2: Structuring Content -->
+				<section>
+					<h2 class="emph1">Tip #2</h2>
+					<h3>Organize Content Consistently</h3>
+				</section>
+				
+				<!-- Tip #3: HTML Header -->
+				<section>
+					<h2 class="emph1">Tip #3</h2>
+					<h3>"lang" Attribute</h3>
+				</section>
+					
+				<section>
+					<pre><code class="showcase">&lt;html lang="en"&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #4: HTML Header -->
+				<section>
+					<h2 class="emph1">Tip #4</h2>
+					<h3>Clear, Descriptive Title</h3>
+				</section>
+					
+				<!-- Tip #5: HTML Header -->
+				<section>
+					<h2 class="emph1">Tip #5</h2>
+					<h3>Most Important Part of Title First</h3>
+				</section>
+
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;!-- Which section? --&gt;
+&lt;title&gt;Lorem Ipsum Department&lt;/title&gt;
+
+&lt;!-- Which website? --&gt;
+&lt;title&gt;About&lt;/title&gt;
+
+&lt;!-- Important information last --&gt;
+&lt;title&gt;Lorem Ispum Department - UCSB - About&lt;/title&gt;</code></pre>
+				</section>
+					
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;title&gt;
+   About - Lorem Ipsum Department
+&lt;/title&gt;</code></pre>
+				</section>
+				
+				<!-- Tip #6: Headings -->
+				<section>
+					<h2 class="emph1">Tip #6</h2>
+					<h3>Clear and Descriptive</h3>
+				</section>
+					
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;h1&gt;This is how to apply&lt;/h1&gt;
+
+&lt;h2&gt;First&lt;/h2&gt;
+
+&lt;h2&gt;Next&lt;/h2&gt;</code></pre>
+				</section>
+					
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1&gt;How to Apply&lt;/h1&gt;
+
+&lt;h2&gt;Before You Apply&lt;/h2&gt;
+
+&lt;h2&gt;Step 1: Federal Application&lt;/h2&gt;</code></pre>
+				</section>	
+
+				<!-- Tip #7: Headings -->
+				<section>
+					<h2 class="emph1">Tip #7</h2>
+					<h3>Nest Headings Correctly</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;h1&gt;How to Apply&lt;/h1&gt;
+
+&lt;h3&gt;Before You Apply&lt;/h3&gt;
+
+&lt;h3&gt;What You Will Need&lt;/h3&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1&gt;How to Apply&lt;/h1&gt;
+
+&lt;h2&gt;Before You Apply&lt;/h2&gt;
+
+&lt;h3&gt;What You Will Need&lt;/h3&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #8: Headings -->
+				<section>
+					<h2 class="emph1">Tip #8</h2>
+					<h3>Don't Use Heading Elements For Styling</h3>
+				</section>
+					
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;p&gt;
+   Complete the
+   &lt;h3&gt;Federal Application&lt;/h3&gt;
+&lt;/p&gt;</code></pre>
+				</section>
+					
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;p&gt;
+   Complete the
+   &lt;strong&gt;Federal Application&lt;/strong&gt;
+&lt;/p&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #9: Headings -->
+				<section>
+					<h2 class="emph1">Tip #9</h2>
+					<h3>Only One h1</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;h1&gt;About Us&lt;/h1&gt;
+
+&lt;h1&gt;Who Are We?&lt;/h1&gt;
+
+&lt;h1&gt;Where Are We Located?&lt;/h1&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1&gt;About Us&lt;/h1&gt;
+
+&lt;h2&gt;Who Are We?&lt;/h2&gt;
+
+&lt;h2&gt;Where Are We Located?&lt;/h2&gt;</code></pre>
+				</section>
+				
+				<!-- Tip #10: Images -->
+				<section>
+					<h2 class="emph1">Tip #10</h2>
+					<h3>Use the "alt" attribute</h3>
+				</section>
+					
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;img
+   src="butterfly.jpg"
+   alt="A butterfly sitting on a leaf"
+/&gt;</code></pre>
+				</section>
+
+				<!-- Tip #11: Images -->
+				<section>
+					<h2 class="emph1">Tip #11</h2>
+					<h3>"Null" alt text</h3>
+				</section>
+					
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;img
+   src="bullet.gif"
+/&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;img
+   src="bullet.gif"
+   alt=""
+/&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #12: Images -->
+				<section>
+					<h2 class="emph1">Tip #12</h2>
+					<h3>Use HTML for Text</h3>
+				</section>
+				
+				<section>
+					<iframe src="demo/tip12.html"></iframe>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;a href="/download"&gt;
+   &lt;img
+      src="download-btn.png"
+      alt="Download Now"
+   /&gt;
+&lt;/a&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;a href="/download"
+   class="download-btn"&gt;
+      Download Now
+&lt;/a&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>.download-btn
+{
+   background: #8EC957;
+   background: linear-gradient(to bottom,  #8EC957 0%,#71A341 100%);
+   border-bottom: 3px solid #4A6E29;
+   border-radius: 8px;
+   box-shadow: 0 3px 10px #CCE8B3;
+   color: #FFF;
+   font-size: 1.5em;
+   padding: 15px;
+   text-decoration: none;
+   text-shadow: 0 2px 0 #67963B;
+}</code></pre>
+				</section>
+					
+				<!-- Tip #13: Images -->
+				<section>
+					<h2 class="emph1">Tip #13</h2>
+					<h3>Use CSS for Decoration</h3>
+				</section>
+				
+				<section>
+					<iframe src="demo/tip13.html"></iframe>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;h1&gt;
+   Welcome!
+   &lt;img src="images/wave.png"&gt;
+&lt;/h1&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;h1 class="welcome-header"&gt;
+   Welcome!
+&lt;/h1&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>.welcome-header
+{
+   background: url('../images/wave.png') no-repeat top right;
+   color: #555;
+   font: italic normal 3.5em Georgia, serif;
+   margin: 0 auto;
+   padding-top: 50px;
+   text-align: left;
+   width: 70%;
+}</code></pre>
+				</section>
+				
+				<!-- Tip #14: Input Labels -->
+				<section>
+					<h2 class="emph1">Tip #14</h2>
+					<h3>Use Labels with Inputs</h3>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;label for="new-username"&gt;
+  Username:
+&lt;/label&gt;
+&lt;input
+   type="text"
+   name="username"
+   id="new-username"
+/&gt;</code></pre>
+				</section>
+					
+				<!-- Tip #15: Input Labels -->
+				<section>
+					<h2 class="emph1">Tip #15</h2>
+					<h3>Use CSS for "Invisible" Labels</h3>
+				</section>
+
+				<section>
+					<iframe src="demo/tip15.html"></iframe>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;form class="search-form"&gt;
+   &lt;input type="text" name="query" id="search-query" /&gt;
+   &lt;input type="submit" value="Search" /&gt;
+&lt;/form&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;form class="search-form"&gt;
+   &lt;label for="search-query"&gt;Search Query:&lt;/label&gt;
+   &lt;input type="text" name="query" id="search-query" /&gt;
+   &lt;input type="submit" value="Search" /&gt;
+&lt;/form&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>.search-form label
+{
+   left: -9999px;
+   overflow: hidden;
+   position: absolute;
+}</code></pre>
+				</section>
+				
+				<!-- Tip #16: Links -->
+				<section>
+					<h2 class="emph1">Tip #16</h2>
+					<h3>Use descriptive text for links</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<p>
+						For more information, visit the Department of Education website at
+						<a href="http://www.ed.gov/">http://www.ed.gov/</a>.
+					</p>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<p>
+						For more information, <a href="http://www.ed.gov/">click here</a>
+						to visit the Department of Education website.
+					</p>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<p>
+						For more information, <a href="http://www.ed.gov/">visit the
+						Department of Education's website</a>.
+					</p>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<p>
+						For more information, visit the
+						<a href="http://www.ed.gov/">Department of Education's website</a>.
+					</p>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<p>
+						The <a href="http://www.ed.gov/">Department of Education</a>
+						can provide more information.
+					</p>
+				</section>
+					
+				<!-- Tip #17: Links -->
+				<section>
+					<h2 class="emph1">Tip #17</h2>
+					<h3>Avoid opening new windows</h3>
+				</section>
+
+				<!-- Tip #18: Color -->
+				<section>
+					<h2 class="emph1">Tip #18</h2>
+					<h3>4.5:1 Color Ratio on Large Text</h3>
+				</section>
+					
+				<!-- Tip #19: Color -->
+				<section>
+					<h2 class="emph1">Tip #19</h2>
+					<h3>3:1 Color Ratio on Small Text</h3>
+				</section>
+				
+				<section>
+					<a target="_blank" href="http://webaim.org/resources/contrastchecker/">WebAIM: Color Contrast Checker</a>
+				</section>
+					
+				<!-- Tip #20: Color -->
+				<section>
+					<h2 class="emph1">Tip #20</h2>
+					<h3>Don't Rely Solely on Color</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<iframe src="demo/tip20-bad.html"></iframe>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<iframe src="demo/tip20-good.html"></iframe>
+				</section>
+				
+				<!-- Tip #21: Tables -->
+				<section>
+					<h2 class="emph1">Tip #21</h2>
+					<h3>Don't Use Tables for Layout</h3>
+				</section>
+				
+				<!-- Tip #22: Tables -->
+				<section>
+					<h2 class="emph1">Tip #22</h2>
+					<h3>Use Tables for Tabular Data</h3>
+				</section>
+				
+				<!-- Tip #23: Form Validation -->
+				<section>
+					<h2 class="emph1">Tip #23</h2>
+					<h3>Denote Required Fields</h3>
+				</section>
+				
+				<section>
+					<iframe src="demo/tip23.html"></iframe>
+				</section>
+					
+				<!-- Tip #24: Form Validation -->
+				<section>
+					<h2 class="emph1">Tip #24</h2>
+					<h3>Define Required Format</h3>
+				</section>
+				
+				<section>
+					<iframe src="demo/tip24.html"></iframe>
+				</section>
+					
+				<!-- Tip #25: Form Validation -->
+				<section>
+					<h2 class="emph1">Tip #25</h2>
+					<h3>Explain How and Why Validation Failed</h3>
+				</section>
+				
+				<section>
+					<iframe src="demo/tip25.html"></iframe>
+				</section>
+				
+				<!-- Tip #26: Keyboard Support -->
+				<section>
+					<h2 class="emph1">Tip #26</h2>
+					<h3>Ensure Keyboard Support</h3>
+				</section>
+					
+				<!-- Tip #27: Keyboard Support -->
+				<section>
+					<h2 class="emph1">Tip #27</h2>
+					<h3>Avoid Adjusting "tabindex"</h3>
+				</section>
+				
+				<section class="bad">
+					<h2>Dont</h2>
+					<pre><code>&lt;a href="/mainmenu" tabindex="2"&gt;
+   Return to Main Menu
+&lt;/a&gt;
+&lt;button tabindex="1"&gt;
+   Place Order
+&lt;/button&gt;</code></pre>
+				</section>
+				
+				<section class="good">
+					<h2>Do</h2>
+					<pre><code>&lt;button&gt;
+   Place Order
+&lt;/button&gt;
+&lt;a href="/mainmenu"&gt;
+   Return to Main Menu
+&lt;/a&gt;</code></pre>
+				</section>
+				
+				<!-- Tip #28: Navigation -->
+				<section>
+					<h2 class="emph1">Tip #28</h2>
+					<h3>Provide "Skip Links"</h3>
+				</section>
+				
+				<section>
+					<pre><code>&lt;a href="#content"&gt;
+   Skip to Main Content
+&lt;/a&gt;
+
+&lt;nav&gt;&lt;!-- Navigation --&gt;&lt;/nav&gt;
+&lt;aside&gt;&lt;!-- Sidebar --&gt;&lt;/aside&gt;
+
+&lt;main id="content"&gt;
+   &lt;!-- Main Content --&gt;
+&lt;/main&gt;</code></pre>
+				</section>
+
+				<!-- Tip #29: Navigation -->
+				<section>
+					<h2 class="emph1">Tip #29</h2>
+					<h3>Provide a Sitemap</h3>
+				</section>
+					
+				<!-- Tip #30: Navigation -->
+				<section>
+					<h2 class="emph1">Tip #30</h2>
+					<h3>Provide a Search Feature</h3>
+				</section>
+				
+				<section>
+					<h2>Questions?</h2>
+				</section>
+				
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

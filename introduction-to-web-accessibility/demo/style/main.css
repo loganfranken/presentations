@@ -1,0 +1,136 @@
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.showcase
+{
+	clear: both;
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.download-btn
+{
+	background: #8EC957;
+	background: linear-gradient(to bottom,  #8EC957 0%,#71A341 100%);
+	border-bottom: 3px solid #4A6E29;
+	border-radius: 8px;
+	box-shadow: 0 3px 10px #CCE8B3;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 1.5em;
+	padding: 15px;
+	text-decoration: none;
+	text-shadow: 0 2px 0 #67963B;
+}
+
+.welcome-header
+{
+	background: url('../images/wave.png') no-repeat top right;
+	color: #555;
+	font: italic normal 3.5em Georgia, serif;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: left;
+	width: 70%;
+}
+
+.search-form input
+{
+	border: 1px solid #115891;
+	border-radius: 3px;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.search-form .submit-btn
+{
+	background: #64A7DE;
+	background: linear-gradient(to bottom,  #64A7DE 0%,#337CB8 100%);
+	border-bottom: 3px solid #296494;
+	border-width: 0 0 3px;
+	border-radius: 8px;
+	box-shadow: 0 3px 10px #BBD8F0;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 1.5em;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-shadow: 0 2px 0 #296494;
+}
+
+.search-form label
+{
+	left: -9999px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.color-example
+{
+	font-size: 1.6em;
+	text-align: left;	
+}
+
+.color-example .new
+{
+	color: orange;
+}
+
+.validation-example
+{
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.validation-example ul
+{
+	margin-top: 1.5em;
+	list-style: none;
+}
+
+.validation-example li
+{
+	margin-bottom: 1.2em;
+	position: relative;
+	width: 65%;
+}
+
+.validation-example label
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	display: block;
+}
+
+.validation-example input
+{
+	border: 1px solid #333;
+	border-radius: 5px;
+	font-size: 0.8em;
+	margin: 0.25em 0;
+	padding: 5px;
+}
+
+.validation-example .help
+{
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.validation-example .error
+{
+	color: #C00;
+}
+
+.validation-example .error-message
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+}

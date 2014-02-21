@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip #23 Example</title>
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+	<form class="validation-example">
+		<p><strong>Note:</strong> Required fields are marked with an asterisk (*)</p>
+		<ul>
+			<li class="error">
+				<label for="user-name">Full Name *</label>
+				<input type="text" id="user-name" name="name" />
+				<span class="error-message">Full name is required</span>
+			</li>
+			<li>
+				<label for="user-phone">Phone Number</label>
+				<span class="help">Format: (123) 456-7890</span>
+				<input type="text" id="user-phone" name="phone" />
+			</li>
+		</ul>
+	</form>
+
+</body>
+</html>
