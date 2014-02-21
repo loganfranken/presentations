@@ -15,9 +15,9 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G61: Presenting repeated components in the same relative order each time they appear](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G61)
 * [WCAG 2.0 - G197: Using labels, names, and text alternatives consistently for content that has the same functionality](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G197)
 
-### HTML Document
+### HTML Header
 
-* Specify the `lang` attribute on the parent HTML element
+* Specify the `lang` attribute on the opening `html` tag
 * Provide a clear, descriptive title for your web page
 * Begin your web page's title with the most important identifying information first
 
