@@ -111,32 +111,32 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [UCOP EA - Use unique names for links](http://www.ucop.edu/electronic-accessibility/web-developers/use-unique-names-for-links.html)
 * [UCOP EA - Inform users when a link opens in a new window](http://www.ucop.edu/electronic-accessibility/web-developers/inform-users-when-a-link-opens-in-a%20new-%20window.html)
 
-## Color
+### Color
 
 * For text less than 18 point if not bold and less than 14 point if bold, ensure a contrast ratio of at least 4.5:1 between text and background behind text
 * For text at least 18 point if not bold and at least 14 point if bold, ensure a contrast ratio of at least 3:1 between text and background behind text
 * Do not rely solely on color to denote an important element
 
-### Resources
+#### Resources
 
 * [WCAG 2.0 - G14: Ensuring that information conveyed by color differences is also available in text](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G14)
 * [WCAG 2.0 - G183: Using a contrast ratio of 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G183)
 * [WCAG 2.0 - Contrast (Minimum)](http://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast)
 * [UCOP EA - Maintain contrast between text and background colors](http://www.ucop.edu/electronic-accessibility/web-developers/maintain-contrast-between-text-and-background-colors.html)
 
-## Tables
+### Tables
 
 * Use tables to represent tabular data
 * Make use of all of the appropriate table elements and attributes (`caption`, `summary`, `thead`, `scope`, etc.)
 * *Do not* use tables to control visual layout
 
-### Resources
+#### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H39
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H43
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H51
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H63
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H73
+* [WCAG 2.0 - H39: Using caption elements to associate data table captions with data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H39)
+* [WCAG 2.0 - H43: Using id and headers attributes to associate data cells with header cells in data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H43)
+* [WCAG 2.0 - H51: Using table markup to present tabular information](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H51)
+* [WCAG 2.0 - H63: Using the scope attribute to associate header cells and data cells in data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H63)
+* [WCAG 2.0 - H73: Using the summary attribute of the table element to give an overview of data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H73)
 
 ## Form Validation
 
