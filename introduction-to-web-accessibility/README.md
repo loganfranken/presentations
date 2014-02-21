@@ -60,6 +60,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - C9: Using CSS to include decorative images](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9)
 * [UCOP EA - Use alt attributes appropriately on all images](http://www.ucop.edu/electronic-accessibility/web-developers/use-alt-attributes-appropriately-on-all-images.html)
 * [UCOP EA - Use plain text for text](http://www.ucop.edu/electronic-accessibility/web-developers/use-plain-text-for-text.html)
+* [WebAIM - Decorative Images](http://webaim.org/techniques/alttext/#decorative)
 
 ### Input Labels
 
