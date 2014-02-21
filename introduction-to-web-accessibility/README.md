@@ -48,25 +48,22 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 
 * Use the `alt` attribute ("alt text") on `img` elements
 * Provide a short description for the "alt text"
-* Use the `longdesc` attribute to provide additional information
 * Use a "null" value for the `alt` attribute on purely decorative images (e.g. `alt=""`)
-* Use CSS techniques (background images, image replacement) to insert purely decorative images
+* Avoid embedding text in images
+* Use CSS to insert purely decorative images
 
 #### Resources
 
 * [WCAG 2.0 - H37: Using alt attributes on img elements](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H37)
 * [WCAG 2.0 - H67: Using null alt text and no title attribute on img elements for images that AT should ignore](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H67)
-* [WCAG 2.0 - http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9)
+* [WCAG 2.0 - C9: Using CSS to include decorative images](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/C9)
 * [UCOP EA - Use alt attributes appropriately on all images](http://www.ucop.edu/electronic-accessibility/web-developers/use-alt-attributes-appropriately-on-all-images.html)
 * [UCOP EA - Use plain text for text](http://www.ucop.edu/electronic-accessibility/web-developers/use-plain-text-for-text.html)
 
 ### Input Labels
 
 * Use `label` elements with `input` elements in forms
-* Use descriptive text for `label`s
-* Position `label`s so that the relationship between `input` and `label` is clear
-* Use CSS techniques to include the `label` even when it is not part of a page's visual interface
-* Use `fieldset` and `legend` for a group of related `input` elements
+* Use CSS to include the `label` even when it is not part of a page's visual interface
 
 #### Resources
 
