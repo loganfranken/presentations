@@ -32,8 +32,8 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * Nest heading elements correctly (e.g. `h3` is a subheading beneath `h2`)
 * *Do not* use heading elements just to style text
 * *Do not* skip heading levels (e.g. use `h4` as a subheading beneath a `h2`)
-* *Do not* use multiple `h1` headings within a page (pre-HTML5) or within a sectioning element (HTML5)
-* Understand how use of headings has changed in HTML5
+* *Do not* use multiple `h1` headings within a page
+* Understand how use of headings has changed in HTML5 and screenreader support
 
 #### Resources
 
@@ -43,6 +43,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - H69: Providing heading elements at the beginning of each section of content](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H69)
 * [Mozilla Developer Network - Sections and Outlines of an HTML5 Document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Defining_Headings_in_HTML5)
 * [UCOP EA - Use headings appropriately](http://www.ucop.edu/electronic-accessibility/web-developers/use-headings-appropriately.html)
+* [Juicy Studio - The HTML5 outline algorithm and JAWS](http://juicystudio.com/article/html5-outline-algorithm-jaws.php)
 
 ### Images
 
