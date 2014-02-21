@@ -80,3 +80,57 @@ body
 {
 	color: orange;
 }
+
+.validation-example
+{
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.validation-example ul
+{
+	margin-top: 1.5em;
+	list-style: none;
+}
+
+.validation-example li
+{
+	margin-bottom: 1.2em;
+	position: relative;
+	width: 65%;
+}
+
+.validation-example label
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	display: block;
+}
+
+.validation-example input
+{
+	border: 1px solid #333;
+	border-radius: 5px;
+	font-size: 0.8em;
+	margin: 0.25em 0;
+	padding: 5px;
+}
+
+.validation-example .help
+{
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.validation-example .error
+{
+	color: #C00;
+}
+
+.validation-example .error-message
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
