@@ -271,3 +271,8 @@ body
 	min-height: 275px;
 	width: 80%;
 }
+
+.reveal .title a, .reveal .info-table a
+{
+	text-decoration: none;
+}
