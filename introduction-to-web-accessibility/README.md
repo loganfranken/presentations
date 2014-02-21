@@ -92,7 +92,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 * [WCAG 2.0 - G162: Positioning labels to maximize predictability of relationships](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G162)
 * [WCAG 2.0 - G167: Using an adjacent button to label the purpose of a field](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G167)
 
-## Links
+### Links
 
 * Use descriptive text for links
 * Avoid opening new windows
@@ -101,15 +101,15 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 
 ### Resources
 
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H30
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H83
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G91
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G200
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G201
-* http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR24
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-descriptive-text-for-links.html
-* http://www.ucop.edu/electronic-accessibility/web-developers/use-unique-names-for-links.html
-* http://www.ucop.edu/electronic-accessibility/web-developers/inform-users-when-a-link-opens-in-a%20new-%20window.html
+* [WCAG 2.0 - G91: Providing link text that describes the purpose of a link](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G91)
+* [WCAG 2.0 - G200: Opening new windows and tabs from a link only when necessary](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G200)
+* [WCAG 2.0 - G201: Giving users advanced warning when opening a new window](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G201)
+* [WCAG 2.0 - H30: Providing link text that describes the purpose of a link for anchor elements](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H30)
+* [WCAG 2.0 - H83: Using the target attribute to open a new window on user request and indicating this in link text](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H83)
+* [WCAG 2.0 - SCR24: Using progressive enhancement to open new windows on user request](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/SCR24)
+* [UCOP EA - Use descriptive text for links](http://www.ucop.edu/electronic-accessibility/web-developers/use-descriptive-text-for-links.html)
+* [UCOP EA - Use unique names for links](http://www.ucop.edu/electronic-accessibility/web-developers/use-unique-names-for-links.html)
+* [UCOP EA - Inform users when a link opens in a new window](http://www.ucop.edu/electronic-accessibility/web-developers/inform-users-when-a-link-opens-in-a%20new-%20window.html)
 
 ## Color
 
