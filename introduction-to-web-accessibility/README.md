@@ -115,15 +115,9 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 
 ### Form Validation
 
-* Clearly denote required fields
-* Clearly define the desired format for input, providing examples
-* Clearly explain which fields did not pass validation and why
-* Use HTML5 input validation attributes (`required`, etc.)
-* Allow user to easily navigate from error message to input that caused the error
-* Upon a validation error, set the browser's `focus` to the validation error message or input that caused the validation error
-* Upon a validation error, suggest alternative valid input values
-* Allow the user to review input values before submitting
-* Provide feedback when a form is successfully submitted
+* Denote required fields
+* Define the desired format for input, providing examples
+* Explain which fields did not pass validation and why
 
 #### Resources
 
