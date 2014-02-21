@@ -29,8 +29,7 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Headings
 
 * Use clear, descriptive headings
-* Use heading elements (`h1` - `h6`) only for actual headings
-* Nest heading elements appropriately (e.g. `h3` is a subheading beneath `h2`)
+* Nest heading elements correctly (e.g. `h3` is a subheading beneath `h2`)
 * *Do not* use heading elements just to style text
 * *Do not* skip heading levels (e.g. use `h4` as a subheading beneath a `h2`)
 * *Do not* use multiple `h1` headings within a page (pre-HTML5) or within a sectioning element (HTML5)
