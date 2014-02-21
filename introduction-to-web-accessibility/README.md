@@ -107,16 +107,11 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Tables
 
 * Use tables to represent tabular data
-* Make use of all of the appropriate table elements and attributes (`caption`, `summary`, `thead`, `scope`, etc.)
 * *Do not* use tables to control visual layout
 
 #### Resources
 
-* [WCAG 2.0 - H39: Using caption elements to associate data table captions with data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H39)
-* [WCAG 2.0 - H43: Using id and headers attributes to associate data cells with header cells in data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H43)
 * [WCAG 2.0 - H51: Using table markup to present tabular information](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H51)
-* [WCAG 2.0 - H63: Using the scope attribute to associate header cells and data cells in data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H63)
-* [WCAG 2.0 - H73: Using the summary attribute of the table element to give an overview of data tables](http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/H73)
 
 ### Form Validation
 
