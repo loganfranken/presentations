@@ -136,8 +136,6 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Keyboard Support
 
 * Ensure that your website can be navigated using just a keyboard
-* When specifying mouse-specific events with JavaScript (e.g. `onclick`), provide keyboard alternatives (e.g. `onkeypress`)
-* *Do not* create a "keyboard trap" or "tab loop" that can only be exited with a mouse
 * Only adjust `taborder` if necessary
 
 #### Resources
@@ -152,12 +150,8 @@ A talk I gave on web accessibility at the University of California, Santa Barbar
 ### Navigation
 
 * Provide links to "skip" to the main area of content
-* Provide links to related web pages
-* Provide a directory of pages within a website (e.g. sitemap or table of contents)
-* Provide users with the ability to search your website
-* Provide "breadcrumb" navigation to assist users in navigating your website
-* Clearly indicate the user's current location within the website and how it relates to the rest of the website
-* Clearly identify how the current web page relates to other web pages within the website
+* Provide a sitemap
+* Provide a search feature
 
 #### Resources
 
