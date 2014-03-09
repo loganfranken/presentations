@@ -1,6 +1,7 @@
 # Introduction to Web Accessibility
 
-A talk I gave on web accessibility at the University of California, Santa Barbara.
+A talk I gave with Adaptive Technology Specialist Mark Grosch
+on web accessibility at the University of California, Santa Barbara (UCSB).
 
 ## Tips
 
