@@ -1,0 +1,35 @@
+header
+{
+	margin: 2em 0;
+}
+
+section > h1
+{
+	border-bottom: 1px solid #EEE;
+	font-size: 2em;
+	margin-bottom: 0.7em;
+	padding-bottom: 0.7em;
+}
+
+.news article
+{
+	border-bottom: 1px dashed #DDD;
+	margin-bottom: 1.5em;
+	padding-bottom: 2em;
+}
+
+.news article:last-child
+{
+	border: none;
+}
+
+.news article h1
+{
+	font-size: 1.5em;
+	margin: 0.5em 0;
+}
+
+nav
+{
+	margin-bottom: 2em;
+}
