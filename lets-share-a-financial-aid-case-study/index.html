@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Let's Share: A Financial Aid Case Study</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+			
+				<section>
+					<h1>Let's Share</h1>
+					<h2>A Financial Aid Case Study</h2>
+					<h3>#uccsc #letsshare</h3>
+					<p>
+						<small>
+							<a href="http://www.loganfranken.com/" target="_blank">Logan Franken</a> /
+							<a href="http://twitter.com/loganfranken" target="_blank">@loganfranken</a>
+						</small>
+					</p>
+				</section>
+				
+				<section>
+					<h1>Slides and Notes</h1>
+					<h2><a href="http://www.github.com/loganfranken">github.com/loganfranken</a></h2>
+				</section>
+				
+				<section>
+					<h1>2008 HEOA</h1>
+					<h2 class="fragment">Create a Net Price Calculator</h2>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Dept of Ed's Template</h1>
+					</section>
+				
+					<section>
+						<h2>Generator</h2>
+						<img src="images/dept_ed_calc_1.png" alt="Department of Education's Net Price Calculator Generator" />
+					</section>
+
+					<section>
+						<h2>Calculator</h2>
+						<img src="images/dept_ed_calc_2.png" alt="Net Price Calculator created with Department of Education's Net Price Calculator Generator" />
+					</section>
+					
+					<section>
+						<h2>Results</h2>
+						<img src="images/dept_ed_calc_3.png" alt="Result page from Net Price Calculator created with Department of Education's Net Price Calculator Generator" />
+					</section>
+
+					<section>
+						<h2>Code-Behind</h2>
+						<img src="images/dept_ed_calc_4.png" alt="Source code from Net Price Calculator created with Department of Education's Net Price Calculator Generator" />
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Berkeley's Estimator</h1>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Aid Estimator Service</h1>
+					</section>
+			
+					<section>
+						<h2>Overview</h2>
+						<img src="images/aid_estimator_1.png" alt="Diagram of the Aid Estimator Service" />
+					</section>
+					
+					<section>
+						<h2>XML Constants File</h2>
+						<pre><code>&lt;constants&gt;
+   &lt;constant name="OutOfStateFees"&gt;
+      &lt;value&gt;22878&lt;/value&gt;
+   &lt;/constant&gt;
+&lt;/constants&gt;</code></pre>
+					</section>
+					
+					<section>
+						<h2>Client Form</h2>
+						<img src="images/aid_estimator_2.png" alt="Screenshot of a form consuming the Aid Estimator service" />
+					</section>
+					
+					<section>
+						<h2>Service Request</h2>
+						<pre><code>/AidEstimatorService.svc
+	/GetDependentStudentAidAward
+		?parentAgi=65000
+		&parentIncomeTax=12500
+		&studentAgi=5000</code></pre> 
+					</section>
+					
+					<section>
+						<h2>Service Response</h2>
+						<pre><code>&lt;AidEstimatorResponse&gt;
+   &lt;AidEstimatorResults&gt;
+      &lt;EfcProfile&gt;
+         &lt;ExpectedFamilyContribution&gt;8150&lt;/ExpectedFamilyContribution&gt;
+         &lt;ParentContribution&gt;7350&lt;/ParentContribution&gt;
+         &lt;StudentContribution&gt;800&lt;/StudentContribution&gt;
+      &lt;/EfcProfile&gt;
+   &lt;GrantAward&gt;
+   &lt;Maximum&gt;14579&lt;/Maximum&gt;
+      &lt;Minimum&gt;15579&lt;/Minimum&gt;
+      &lt;/GrantAward&gt;
+   &lt;/AidEstimatorResults&gt;
+&lt;/AidEstimatorResponse&gt;</code></pre>
+					</section>
+					
+					<section>
+						<h2>Display Results</h2>
+						<img src="images/aid_estimator_3.png" alt="Screenshot of the results from a form consuming the Aid Estimator service" />
+					</section>
+					
+					<section>
+						<h2>Components</h2>
+						<h3 class="fragment">EFC Calculator</h3>
+						<h3 class="fragment">Aid Estimator</h3>
+					</section>
+					
+					<section>
+						<h2>Aid Estimator Formulas</h2>
+						<pre class="fragment"><code>&lt;constant name="Dependent.GrantEquation"&gt;
+   &lt;value&gt;
+      Min(
+         [MaxGrant],
+         Max(0, [CostOfAttendance] - [EFC] - [SelfHelp])
+      )
+   &lt;/value&gt;
+&lt;/constant&gt;</code></pre>
+					</section>
+				</section>
+				
+				<section>
+					<h1>Cross-Campus Team</h1>
+				</section>
+				
+				<section>
+					<h1>Open-Source</h1>
+				</section>
+					
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
