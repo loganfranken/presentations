@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>jQuery: JavaScript Made Easy (Part 2)</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+		
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/jquery.css" id="theme">
+
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section class="title">
+					<h1>jQuery</h1>
+					<h2>JavaScript, Made Easy</h2>
+					
+					<p><a href="http://www.loganfranken.com/" target="_blank">Logan Franken</a> <a href="http://www.twitter.com/loganfranken" target="_blank">@loganfranken</a></p>
+					<p><a href="http://www.ucsb.edu/webguide/" target="_blank">UCSB Web Standards Group</a></p>
+				</section>
+				
+				<section>
+					<h1>Twitter</h1>
+					<p><a class="major" target="_blank" href="https://twitter.com/search/%23jquerywsg">#jquerywsg</a></p>
+				</section>
+				
+				<section>
+					<h1>Presentation</h1>
+					<p><a href="http://loganfranken.github.io/WSG-jQuery-Workshop" target="_blank">http://loganfranken.github.io/WSG-jQuery-Workshop</a></p>
+				</section>				
+				
+				<section>
+					<h1>Code and Notes</h1>
+					<p><a href="https://github.com/loganfranken/WSG-jQuery-Workshop" target="_blank">https://github.com/loganfranken/WSG-jQuery-Workshop</a></p>
+				</section>				
+
+				<section>
+					<h1>jQuery Object</h1>
+					
+					<pre class="fragment"><code>jQuery = function( selector, context ) {
+
+  return new jQuery.fn.init( selector, context, rootjQuery );
+	
+},</code></pre>
+				</section>
+				
+				<section>
+					<h1>Version Lines</h1>
+					<div class="version-line-wrapper">
+						<span class="version-line fragment">1.x</span>
+						<span class="version-line fragment">2.x</span>
+					</div>
+				</section>
+				
+				<section>
+					<h1>Event Binding</h1>
+					<h2 class="fragment">Directly Bound</h2>
+					<h2 class="fragment">Event Delegation</h2>
+				</section>
+				
+				<section>
+					<h1>Selectors and Filters</h1>
+					<p><a href="http://api.jquery.com/category/selectors/" target="_blank">jQuery API: Selectors and Filters</a></p>
+				</section>
+				
+				<section>
+					<h1>DOM Traversal</h1>
+					<p><a href="http://api.jquery.com/category/traversing/" target="_blank">jQuery API: DOM Traversal</a></p>
+				</section>
+				
+				<section>
+					<h1>DOM Manipulation</h1>
+					<p><a href="http://api.jquery.com/category/manipulation/" target="_blank">jQuery API: DOM Manipulation</a></p>
+				</section>
+				
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				
+				rollingLinks: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

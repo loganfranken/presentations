@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Demo</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css" />
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<!-- List -->
+		<h1>Todo List</h1>
+		
+		<ul class="todo-list">
+		</ul>
+		
+		<!-- Add Item Controls -->
+		<div class="add-controls">
+		
+			<h2>Add Item</h2>
+			
+			<form id="add-item-form" action="" method="GET">
+				<ul>
+					<li>
+						<label>Item Description:</label>
+						<input type="text" name="desc" id="new-item-desc" />
+					</li>
+					<li>
+						<input type="submit" value="Add Item" />
+					</li>
+				</ul>
+			</form>
+		
+		</div>
+
+		<!-- Manage Controls -->
+		<div class="manage-controls">
+		
+			<h2>Manage List</h2>
+			
+			<span class="control-wrapper">
+				<button class="delete-btn">Delete Selected Items</button>
+			</span>
+			
+			<span class="control-wrapper">
+				<button class="select-first-btn">Select First Item</button>
+			</span>
+		
+			<span class="control-wrapper">
+				<button class="select-even-btn">Select Even Items</button>
+			</span>
+			
+			<span class="control-wrapper">
+				<label for="search-query">Search Term:</label>
+				<input type="text" name="search-query" id="search-query" />
+			</span>
+			
+			<span class="control-wrapper">
+				<button class="move-top-btn">Move Selected Items to Top</button>
+			</span>
+		
+		</div>
+		
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="script/main.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,106 @@
+body, ul, ol
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 920px;
+}
+
+h2
+{
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 5px;
+}
+
+.add-controls, .manage-controls
+{
+	width: 48%;
+}
+
+.add-controls
+{
+	float: left;
+}
+
+.manage-controls
+{
+	float: right;
+}
+
+ul, ol
+{
+	list-style: none;
+}
+
+input
+{
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+input[type="submit"], button
+{
+	background: #518FD4;
+	border: 0;
+	border-radius: 5px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 8px;
+	text-shadow: 0 1px 0 #386CA6;
+}
+
+.delete-btn
+{
+	background: #C00;
+	text-shadow: 0 1px 0 #A80000;
+}
+
+.todo-list
+{
+	margin-bottom: 2em;
+}
+
+.todo-list li
+{
+	background: #EEE;
+	border-left: 5px solid #DDD;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.todo-list li.selected
+{
+	background: #E6ECFF;
+	border-color: #C0CCF0;
+}
+
+form li
+{
+	margin-bottom: 0.8em;
+}
+
+label
+{
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.control-wrapper
+{
+	display: block;
+	margin-bottom: 0.5em;
+}
