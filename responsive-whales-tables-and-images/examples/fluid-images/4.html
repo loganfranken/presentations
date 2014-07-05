@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fluid Images Example</title>
+	
+	<link rel="stylesheet" href="style/main.css" type="text/css">
+	
+	<style type="text/css">
+	
+		img
+		{
+			width: 100%;
+		}
+		
+		.small
+		{
+			display: none;
+		}
+		
+		@media (max-width: 500px)
+		{
+			.small
+			{
+				display: inline;
+			}
+			
+			.large
+			{
+				display: none;
+			}
+		}
+	
+	</style>
+</head>
+<body>
+
+	<main>
+		<h1>Art Direction</h1>
+		<img src="images/earthrise.jpg" class="large" alt="Earth rising over the moon" />
+		<img src="images/earthrise-art.jpg" class="small" alt="Earth rising over the moon" />
+		<p>(Image Credit: <a href="http://www.flickr.com/photos/nasacommons/5052744678/in/set-72157625096855580">NASA Flickr</a>)</p>
+	</main>
+
+</body>
+</html>
